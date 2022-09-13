@@ -1,0 +1,46 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    background-color: #11619d;
+    border-radius: 50px 50px;
+    color: #ffa600;
+}
+
+.city__photo{
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px 50px;
+    }
+
+    .city__photo{
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .container{
+        max-width: 200px;
+        margin: 50px auto;
+        padding: 20px 50px;
+    }
+
+    .city__photo{
+        max-width: 150px;
+    }
+}
