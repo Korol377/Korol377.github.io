@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Королевич Б.В. ІВ-93, Лаб№4, Вар№2</title>
+    <script src="script.js"></script>
+
+</head>
+<body>
+<script src="script.js"></script>
+<div class="container">
+    <div class="info">
+        <h2 class="info__title">Королевич Богдан Володимирович</h2>
+        <p class="info__date">Дата та місце народження: 05.03.2002р., м. Вінниця.</p>
+        <p id="first_id" onclick="changeColorById();" class="first_id">Освіта:<br>
+            - Тиврівська ЗОШ, смт. Тиврів;<br>
+            - Тиврівський ліцей інтернат поглибленої підготовки в галузі науки, смт. Тиврів;<br>
+            - НТУУ "КПІ" м.Київ.</p>
+    </div>
+    <div class="hobby">
+        <p id="second_id" onclick="changeColorBySelector();" class="second_id">Список хобі:</p>
+        <ul class="hobby__list" type="square">
+            <li class="hobby__list-item">Футбол;</li>
+            <li class="hobby__list-item">Написання музики;</li>
+            <li class="hobby__list-item">Ведення YouTube-каналу;</li>
+            <li class="hobby__list-item">Гра на Drum машині.</li>
+        </ul>
+    </div>
+    <div class="films">
+        <p class="films__title">Улюблені фільми та серіали:</p>
+        <ol class="films__list">
+            <li class="films-item">Трилогія фільмів "Назад у майбутнє".</li>
+            <li class="films-item">Трилогія фільмів "Бібліотекар".</li>
+            <li class="films-item">Серіал "Гра престолів".</li>
+            <li class="films-item">Серіал "Паперовий будинок".</li>
+        </ol>
+    </div>
+    <div class="city">
+        <p class="city__title">Львів — місто в Україні, адміністративний центр області, агломерації, району, міської громади, національно-культурний та освітньо-науковий осередок країни, великий промисловий центр і транспортний вузол, вважається столицею Галичини та центром Західної України. За кількістю населення — сьоме місто країни.</p>
+        <p class="city__title">Львів заснував король Данило приблизно у 1231—1235 роках (перша згадка від 1256 року). Близько 1272 року місто стало столицею Королівства Русі (Галицько-Волинського князівства). Невдовзі після смерті князя Юрія II Львів на понад чотири століття опинився під владою Королівства Польського. 1356 року місто отримало маґдебурзьке право; в добу Середньовіччя Львів був важливим торговельним центром. За австрійського панування місто стало осередком українського та польського національного рухів. Після розпаду Австро-Угорщини восени 1918 року Львів деякий час був столицею Західноукраїнської Народної Республіки, але після українсько-польської битви за місто в листопаді 1918 перейшов до Польщі, що в 1922-23 було визнано міжнародними пактами та угодами. Під час Другої світової війни місто захопив Радянський Союз, а згодом — Німеччина. Після війни було юридично закріплено ялтинську угоду 1945, за якою Східна Галичина і зокрема Львів лишався у складі Української РСР. 1946 року між Польщею та УРСР відбувся обмін населення, який разом із наслідками війни суттєво вплинув на населення Львова. З 1991 року Львів перебуває у складі України.</p>
+        <a href="https://city-adm.lviv.ua/"><img id="Lviv-photo" alt="Lviv-photo" class="city__photo" src="https://yilin.com.ua/wp-content/uploads/2014/11/lviv7-1024x684.jpg"></a>
+    </div>
+
+    <button id="add" onclick="addImage();">Додати</button>
+    <button id="diminish" onclick="diminish_images();">Зменшити</button>
+    <button id="zoom_in" onclick="zoom_in_images();">Збільшити</button>
+    <button id="delete" onclick="deleteImage();">Видалити</button>
+</div>
+</body>
+</html>
